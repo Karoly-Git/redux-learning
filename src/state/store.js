@@ -5,9 +5,6 @@ import namedayReducer from './nameday/namedaySlice';
 export const store = configureStore({
     reducer: {
         counter: counterReducer,
-        nameday: namedayReducer
+        nameday: namedayReducer,
     },
 });
-
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
