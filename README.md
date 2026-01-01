@@ -113,7 +113,7 @@ src/
  │       └─ Counter.css
  ├─ state/
  │   ├─ store.ts
- │   //*├─ hooks.ts*//
+ │   ├─ hooks.ts
  │   └─ counter/
  │       └─ counterSlice.ts
  ├─ App.tsx
