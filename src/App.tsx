@@ -1,6 +1,6 @@
-import './App.css'
-import Counter from './components/counter/Counter'
-import Nameday from './components/nameday/Nameday'
+import './App.css';
+import Counter from './components/counter/Counter';
+import Nameday from './components/nameday/Nameday';
 
 function App() {
   return (
